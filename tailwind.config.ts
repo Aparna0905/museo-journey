@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        gallery: {
+          gold: "hsl(var(--gallery-gold))",
+          dark: "hsl(var(--gallery-dark))",
+          surface: "hsl(var(--gallery-surface))",
+          border: "hsl(var(--gallery-border))",
+          text: "hsl(var(--gallery-text))",
+          "text-muted": "hsl(var(--gallery-text-muted))",
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
